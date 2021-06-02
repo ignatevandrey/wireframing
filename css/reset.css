@@ -1,0 +1,21 @@
+div,
+ol,
+ul,
+p,
+header,
+footer,
+body,
+img {
+    box-sizing: border-box;
+}
+
+nav,
+div,
+header,
+ul,
+li,
+img,
+body {
+    padding: 0;
+    margin: 0;
+}
