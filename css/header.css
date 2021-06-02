@@ -1,7 +1,60 @@
+.content {
+    max-width: 1680px;
+    margin: auto;
+}
+
 .header {
 	padding: 10px 80px;
-    max-width: 1680px;
+    
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
+}
+
+.logo-link {
+    margin-right: 71px;
+    height: 32;
+}
+
+.logo {
+    height: 100%;
+	
+}
+.menu {
+	flex-grow: 1;
+}
+
+.menu-list {
+	padding: 0;
+	display: flex;
+}
+
+.menu-list-item:last-child {
+	margin-right: 0;
+}
+
+.menu-list-item {
+	list-style: none;
+	margin-right: 40px;
+}
+
+.menu-link {
+	font-weight: 500;
+	color: #18a0fb;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+.auth {
+	display: flex;
+	align-items: center;
+}
+
+.auth-btn {
+	width: 130px;
+	margin-right: 12px;
+}
+
+.auth-btn:last-child {
+	margin-right: 0;
 }
