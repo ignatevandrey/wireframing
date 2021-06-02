@@ -2,6 +2,11 @@ body {
 	font-family: Montserrat;
 }
 
+.content {
+    max-width: 1680px;
+    margin: auto;
+}
+
 .btn {
 	padding: 11px;
 	border: 1px solid #18a0fb;
