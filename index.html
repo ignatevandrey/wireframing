@@ -7,15 +7,17 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
     <header class="header">
-        <img src="images/Logo.svg">
-            <nav>
+        <img class="logo" src="images/Logo.svg">
+            <nav class="menu">
                 <ul class="menu-list">
                     <li class="menu-list-item">
-                        <a class="menu-link" href="https://google.com">Features</a>
+                        <a class="menu-link" href="#">Features</a>
                     </li>
                     <li class="menu-list-item">
                         <a class="menu-link" href="#">Pricing</a>
@@ -28,13 +30,9 @@
                     </li>
                 </ul>
             </nav>
-            <div class="signup">
-                <div class="signup-item signup-item1">
-                    <a href="#" class="signup-link signup-link1">log in</a>
-                </div>
-                <div class="signup-item signup-item2">
-                    <a href="#" class="signup-link signup-link2">Register</a>
-                </div>  
+            <div class="auth">
+                <a href="#" class="btn btn-default auth-btn">log in</a>
+                <a href="#" class="btn btn-accent auth-btn">Register</a>
             </div>
     </header>
 </body>
