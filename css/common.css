@@ -1,0 +1,27 @@
+body {
+	font-family: Montserrat;
+}
+
+.content {
+    max-width: 1680px;
+    margin: auto;
+}
+
+.btn {
+	padding: 11px;
+	border: 1px solid #18a0fb;
+	border-radius: 6px;
+	font-size: 15px;
+	font-weight: 500;
+	text-decoration: none;
+	text-align: center;
+}
+
+.btn-accent {
+	background-color: #18a0fb;
+	color: #ffffff;
+}
+
+.btn-default {
+	color: #18a0fb;
+}
