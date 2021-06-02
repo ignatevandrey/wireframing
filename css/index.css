@@ -8,9 +8,6 @@ body {
 .menu {
 	flex-grow: 1;
 }
-.wrapper {
-	display: flex;
-}
 
 .menu-list {
 	padding: 0;
@@ -27,7 +24,6 @@ body {
 }
 
 .menu-link {
-	font-family: Montserrat;
 	font-weight: 500;
 	color: #18a0fb;
 	text-decoration: none;
@@ -43,6 +39,7 @@ body {
 	width: 130px;
 	margin-right: 12px;
 }
+
 .auth-btn:last-child {
 	margin-right: 0;
 }
