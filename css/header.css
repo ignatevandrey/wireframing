@@ -1,6 +1,5 @@
 .header {
 	padding: 10px 80px;
-
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
@@ -52,8 +51,4 @@
 
 .auth-btn:last-child {
 	margin-right: 0;
-}
-
-.video {
-	width: 100%;
 }
