@@ -1,0 +1,17 @@
+{
+  "name": "wireframing",
+  "version": "1.0.0",
+  "description": "https://www.figma.com/file/fcipyhtjogSWbJVOI9fq8z/Wireframing-in-Figma?node-id=0%3A817",
+  "scripts": {
+    "start": "serve ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ignatevandrey/wireframing.git"
+  },
+  "author": "ignatevandrey997@mail.ru",
+  "license": "ISC",
+  "dependencies": {
+    "serve": "^11.3.2"
+  }
+}

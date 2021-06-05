@@ -1,0 +1,56 @@
+body {
+	font-family: Montserrat;
+}
+
+.content {
+	max-width: 1680px;
+	margin: auto;
+}
+
+/* buttons */
+
+.btn {
+	padding: 11px;
+	border: 1px solid #18a0fb;
+	border-radius: 6px;
+	font-size: 15px;
+	font-weight: 500;
+	text-decoration: none;
+	text-align: center;
+}
+
+.btn-accent {
+	background-color: #18a0fb;
+	color: #ffffff;
+}
+
+.btn-default {
+	color: #18a0fb;
+}
+
+/* typography */
+
+.subtitle {
+	color: #000;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 36px;
+	letter-spacing: -0.015em;
+}
+
+.text {
+	color: rgba(0, 0, 0, 0.8);
+	font-size: 18px;
+	line-height: 30px;
+	letter-spacing: -0.015em;
+}
+
+/* card */
+
+.card-title {
+	margin-bottom: 24px;
+}
+
+.card-text {
+	margin-bottom: 32px;
+}
