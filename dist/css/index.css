@@ -1,3 +1,24 @@
 .video {
 	width: 100%;
 }
+
+.mine-information {
+	padding: 120px 80px;
+}
+
+.title {
+	font-weight: 400;
+	font-size: 48px;
+	line-height: 72px;
+	letter-spacing: -0.015em;
+	color: #000000;
+	margin-bottom: 60px;
+	width: 50%;
+}
+
+.wrapper-card {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-row-gap: 60px;
+	grid-column-gap: 148px;
+}
