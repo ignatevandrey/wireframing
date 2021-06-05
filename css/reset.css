@@ -6,7 +6,7 @@ header,
 footer,
 body,
 img {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 nav,
@@ -16,6 +16,12 @@ ul,
 li,
 img,
 body {
-    padding: 0;
-    margin: 0;
+	padding: 0;
+	margin: 0;
+}
+
+h2,
+h3,
+p {
+	margin: 0;
 }

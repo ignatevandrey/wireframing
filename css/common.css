@@ -1,11 +1,14 @@
 body {
+	background: #e5e5e5;
 	font-family: Montserrat;
 }
 
 .content {
-    max-width: 1680px;
-    margin: auto;
+	max-width: 1680px;
+	margin: auto;
 }
+
+/* buttons */
 
 .btn {
 	padding: 11px;
@@ -24,4 +27,32 @@ body {
 
 .btn-default {
 	color: #18a0fb;
+}
+
+/* typography */
+
+.subtitle {
+	color: #000;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 36px;
+	letter-spacing: -0.015em;
+}
+
+.text {
+	opacity: 0.8;
+	color: #000;
+	font-size: 18px;
+	line-height: 30px;
+	letter-spacing: -0.015em;
+}
+
+/* card */
+
+.card-title {
+	margin-bottom: 24px;
+}
+
+.card-text {
+	margin-bottom: 32px;
 }
