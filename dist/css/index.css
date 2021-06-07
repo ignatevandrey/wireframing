@@ -11,3 +11,8 @@
 	grid-template-columns: 1fr 1fr;
 	grid-gap: 60px 148px;
 }
+
+.mine-information-title {
+	margin-bottom: 60px;
+	width: 50%;
+}
