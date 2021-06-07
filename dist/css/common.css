@@ -45,6 +45,14 @@ body {
 	letter-spacing: -0.015em;
 }
 
+.title {
+	font-weight: 400;
+	font-size: 48px;
+	line-height: 72px;
+	letter-spacing: -0.015em;
+	color: #000000;
+}
+
 /* card */
 
 .card-title {
