@@ -13,11 +13,6 @@
 }
 
 .partners-title {
-	font-weight: 400;
-	font-size: 48px;
-	line-height: 72px;
-	letter-spacing: -0.015em;
-	color: #000000;
 	text-align: center;
 	max-width: 1392px;
 	margin: 0 auto;
@@ -34,14 +29,26 @@
 	margin: 0 auto 80px;
 }
 
-.partners-list {
+.partners-list-item {
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-columns: repeat(4, 1fr);
 	gap: 84px;
 	max-width: 960px;
 	margin: 0 auto;
 }
 
-.partners-hers {
+.partners-list {
 	padding: 80px;
+}
+
+.partners {
+	height: 76px;
+	width: 100%px;
+}
+
+.partners-logo {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	object-position: right top;
 }
