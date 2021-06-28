@@ -62,3 +62,34 @@ body {
 .card-text {
 	margin-bottom: 32px;
 }
+
+.information-card {
+	display: flex;
+	padding: 80px;
+	align-items: center;
+}
+
+.information-card:nth-child(2n) {
+	background-color: #f5f5f5;
+	flex-direction: row-reverse;
+}
+
+.wrapper-img {
+	width: 50%;
+}
+
+.wrapper-img:last-child {
+	padding-left: 40px;
+}
+
+.information-card:nth-child(2n) .wrapper-img:first-child {
+	padding-left: 0;
+}
+
+.information-card:nth-child(2n) .wrapper-img:last-child {
+	padding: 0 40px 0 0;
+}
+
+.imgcard {
+	width: 100%;
+}
