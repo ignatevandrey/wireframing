@@ -5,7 +5,8 @@ p,
 header,
 footer,
 body,
-img {
+img,
+a {
 	box-sizing: border-box;
 }
 
