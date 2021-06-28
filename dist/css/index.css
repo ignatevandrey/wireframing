@@ -17,30 +17,30 @@
 	width: 50%;
 }
 
-.card-cat {
+.information-card {
 	display: flex;
 	padding: 80px;
 	align-items: center;
 }
 
-.card-cat:nth-child(2n) {
+.information-card:nth-child(2n) {
 	background-color: #f5f5f5;
 	flex-direction: row-reverse;
 }
 
-.wrapper-cats {
+.wrapper-img {
 	width: 50%;
 }
 
-.wrapper-cats:last-child {
+.wrapper-img:last-child {
 	padding-left: 40px;
 }
 
-.card-cat:nth-child(2n) .wrapper-cats:first-child {
+.information-card:nth-child(2n) .wrapper-img:first-child {
 	padding-left: 0;
 }
 
-.card-cat:nth-child(2n) .wrapper-cats:last-child {
+.information-card:nth-child(2n) .wrapper-img:last-child {
 	padding: 0 40px 0 0;
 }
 
