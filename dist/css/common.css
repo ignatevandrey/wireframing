@@ -4,7 +4,7 @@ body {
 
 .content {
 	max-width: 1680px;
-	margin: auto;
+	margin: 0 auto;
 }
 
 /* buttons */
@@ -92,4 +92,23 @@ body {
 
 .img-card {
 	width: 100%;
+}
+
+.mine-information-title {
+	margin-bottom: 60px;
+	width: 50%;
+}
+
+/* partner-logo */
+
+.partners {
+	height: 76px;
+	width: 100%px;
+}
+
+.partners-logo {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	object-position: right top;
 }
