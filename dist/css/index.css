@@ -6,13 +6,49 @@
 	padding: 120px 80px;
 }
 
+.mine-information-title {
+	margin-bottom: 60px;
+	width: 50%;
+}
+
 .wrapper-card {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-gap: 60px 148px;
 }
 
-.mine-information-title {
-	margin-bottom: 60px;
-	width: 50%;
+.partners-title {
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+
+.partners-text {
+	font-size: 36px;
+	line-height: 50px;
+	text-align: center;
+	margin: 0 auto 80px;
+}
+
+.partners-list {
+	padding: 80px;
+}
+
+.partners-list-item {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 84px;
+	margin: 0 auto;
+}
+
+.partners {
+	height: 76px;
+	width: 100%px;
+}
+
+.partners-logo {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	object-position: right top;
 }
